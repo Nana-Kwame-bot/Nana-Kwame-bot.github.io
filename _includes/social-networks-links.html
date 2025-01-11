@@ -3,18 +3,6 @@
 
 {%- for network in site.social-network-links -%}
 
-  {%- if network[0] == "rss" and network[1] and site.rss-description -%}
-  <li class="list-inline-item">
-    <a href="{{ '/feed.xml' | relative_url }}" title="RSS">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">RSS</span>
-    </a>
-  </li>
-  {%- endif -%}
-
   {%- if network[0] == "email" -%}
   <li class="list-inline-item">
     <a href="mailto:{{ network[1] }}" title="Email me">
@@ -35,18 +23,6 @@
         <i class="fas fa-calendar-check fa-stack-1x fa-inverse"></i>
       </span>
       <span class="sr-only">Schedule a meeting with me</span>
-   </a>
-  </li>
-  {%- endif -%}
-
-  {%- if network[0] == "facebook" -%}
-  <li class="list-inline-item">
-    <a href="https://www.facebook.com/{{ network[1] }}" title="Facebook">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">Facebook</span>
    </a>
   </li>
   {%- endif -%}
@@ -187,18 +163,6 @@
   </li>
   {%- endif -%}
 
-  {%- if network[0] == "youtube" -%}
-  <li class="list-inline-item">
-    <a href="https://www.youtube.com/{{ network[1] }}" title="YouTube">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">YouTube</span>
-   </a>
-  </li>
-  {%- endif -%}
-
   {%- if network[0] == "spotify" -%}
   <li class="list-inline-item">
     <a href="https://open.spotify.com/user/{{ network[1] }}" title="Spotify">
@@ -303,18 +267,6 @@
         <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
       </span>
       <span class="sr-only">Google Scholar</span>
-    </a>
-  </li>
-  {%- endif -%}
-
-  {%- if network[0] == "patreon" -%}
-  <li class="list-inline-item">
-    <a href="https://patreon.com/{{ network[1] }}" title="Patreon">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-patreon fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">Patreon</span>
     </a>
   </li>
   {%- endif -%}
