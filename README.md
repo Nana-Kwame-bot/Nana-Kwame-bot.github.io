@@ -237,3 +237,6 @@ This template was not made *entirely* from scratch. I'd like to give special tha
 
 I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/), [Jekyll Themes](http://jekyllthemes.org/), and another [Jekyll Themes](http://jekyllrc.github.io/jekyllthemes/) for featuring Beautiful Jekyll in their Jekyll theme directories.
 
+# Note about the new pull request template
+
+The pull request template has been updated to include new sections and checkboxes. The new template includes sections for Description, Type of Change, and checkboxes for various types of changes such as new feature, bug fix, breaking change, code refactor, build configuration change, documentation, and chore.

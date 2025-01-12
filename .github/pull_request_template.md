@@ -1,5 +1,15 @@
-Please note that if you are trying to update **your** website, this is the wrong place to do so. Please carefully follow the Beautiful Jekyll instructions (found at https://github.com/daattali/beautiful-jekyll#readme) and make sure you submit changes to **your** version of the project.
+## Description
 
-If your intention is to submit a Pull Request, please describe what your pull request achieves.
+<!-- Please describe the purpose of the pull request and what changes are being made. -->
 
-Thank you!
+## Type of Change
+
+<!-- Please check the type of change your pull request introduces: -->
+
+- [ ] ✨ New feature (non-breaking change which adds functionality)
+- [ ] 🛠️ Bug fix (non-breaking change which fixes an issue)
+- [ ] ❌ Breaking change (fix or feature that would cause existing functionality to change)
+- [ ] 🧹 Code refactor
+- [ ] ✅ Build configuration change
+- [ ] 📝 Documentation
+- [ ] 🗑️ Chore
