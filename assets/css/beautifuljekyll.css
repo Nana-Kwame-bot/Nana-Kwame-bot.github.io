@@ -448,10 +448,6 @@ footer .copyright {
   margin-bottom: 0;
   margin-top: 0;
 }
-footer .theme-by {
-  text-align: center;
-  margin: 0.625rem 0 0;
-}
 footer .footer-custom-content {
   text-align: center;
   margin-bottom: 0.9375rem;
@@ -624,7 +620,7 @@ footer .footer-custom-content {
 
 .blog-tags a:hover {
   opacity: 1;
-  color: var(--text-col);
+  color: var (--text-col);
   border-color: var(--text-col);
 }
 
