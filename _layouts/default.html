@@ -22,4 +22,13 @@ layout: base
       {% endfor %}
     </div>
   {% endif %}
+
+  <!-- Add this right before the closing </body> tag -->
+<script>
+  // Initialize theme as soon as possible to prevent flash of wrong theme
+  (function() {
+    const savedTheme = localStorage.getItem('theme-preference') || 'light';
+    document.body.classList.add(savedTheme + '-mode');
+  })();
+</script>
 </main>
