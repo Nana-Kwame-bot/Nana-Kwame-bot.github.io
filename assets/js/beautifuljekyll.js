@@ -155,6 +155,6 @@ document.addEventListener('DOMContentLoaded', BeautifulJekyllJS.init);
 
 // Initialize theme as soon as possible to prevent flash of wrong theme
 (function () {
-  const savedTheme = localStorage.getItem('theme-preference') || 'light';
+  const savedTheme = localStorage.getItem("theme-preference") || "dark";
   document.body.classList.add(savedTheme + '-mode');
 })();
