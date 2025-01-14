@@ -33,6 +33,8 @@ When I'm not coding, I'm probably:
 - Contributing to open-source projects like [LangChain.dart](https://github.com/davidmigloz/langchain_dart)
 - Reviewing Pull Request by Phundit developers
 - Exploring new technologies and frameworks
+- Playing Hearthstone or Heroes of the Storm
+- Watching anime
 
 ### Let's Connect!
 I'm always excited to connect with fellow developers, tech enthusiasts, or anyone interested in making cool stuff. Feel free to reach out to me at [aduhenry9@gmail.com](mailto:aduhenry9@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/henry-adu-17b453200).
