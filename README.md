@@ -8,9 +8,6 @@ Welcome to my portfolio repository! This repository showcases my projects, skill
 - [Projects](#projects)
 - [Skills](#skills)
 - [Experience](#experience)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Customization](#customization)
 - [Contact](#contact)
 
 ## Introduction
